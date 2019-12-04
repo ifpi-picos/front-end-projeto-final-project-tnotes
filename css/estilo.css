@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	color: #333;
+	box-sizing: border-box;
+	font-family: 'Times New Roman', serif;
+}
+
+.cabecalho {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2% 3%;
+	width: 100%;
+	border-bottom: solid 1px #c6c6c6;
+	box-shadow: 0px 0px 5px #c6c6c6;
+	position: fixed;
+	background-color: black;
+	/* background-color: #009688; */
+}
+
+.titulo{
+	font-size: 36px;
+	font-family: "Lato-Black";
+	text-transform: uppercase;
+	color: white;
+	/* background: -webkit-linear-gradient(left, #1d3ede, #01e6f8);
+	background: -ms-linear-gradient(left, #1d3ede, #01e6f8);
+	background: -moz-linear-gradient(left, #1d3ede, #01e6f8);
+	background: -o-linear-gradient(left, #1d3ede, #01e6f8);
+	-webkit-background-clip: text;
+	-ms-background-clip: text;
+	-o-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-ms-text-fill-color: transparent;
+	-o-text-fill-color: transparent; */
+}
+
+.navegacao ul {
+	display: flex;
+	list-style: none;
+	
+}
+
+.navegacao ul li {
+	margin: 0 16px;
+}
+
+.navegacao ul a {
+	text-decoration: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.conteudo {
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 5%;
+}
+
+.conteudo1 {
+	display: flex;
+	background-image: url(../img/fundo1.jpg);
+	background-size: cover;
+	min-height: 100vh;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.conteudo-art {
+	width: 33.3%;
+	text-align: justify;
+	padding: 10px;
+}
+
+h1, h2 {
+	padding: 5px;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+p {
+	font-size: 20px;
+	padding: 2px 5px 5px 5px;
+}
+
+.titulo-princ {
+	padding: 100px 0 20px 0;
+}
+
+footer {
+    background-color: #009688;
+    margin-top: 16px;
+    text-align: center;
+    padding: 0.01em 16px;
+}
+
+@media screen and (max-width: 850px) {
+	
+	.cabecalho {
+		flex-direction: column;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	h1 {
+		font-size: 25px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	.conteudo-art {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 515px) {
+	
+	.cabecalho ul {
+		flex-direction: column;
+		flex-wrap: wrap;
+		text-align: center;
+		width: 100%;
+	}
+
+	.cabecalho ul li {
+		padding: 7px;
+	}
+	
+	.titulo-princ {
+		padding: 50px 0 10px 0;
+	}
+	.conteudo1{
+		padding-top: 255px;
+	}
+
+	.conteudo-art {
+		width: 100%;
+	}
+
+}
