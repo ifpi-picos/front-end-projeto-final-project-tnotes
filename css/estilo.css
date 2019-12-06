@@ -1,10 +1,18 @@
 * {
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	font-size: 100%;
-	color: #333;
 	box-sizing: border-box;
-	font-family: 'Times New Roman', serif;
+	font-family: Roboto, sans-serif;
+
+}
+
+main {
+	color: #444444;
+}
+
+img {
+	max-width: 100%;
 }
 
 .cabecalho {
@@ -13,45 +21,32 @@
 	align-items: center;
 	padding: 2% 3%;
 	width: 100%;
-	border-bottom: solid 1px #c6c6c6;
-	box-shadow: 0px 0px 5px #c6c6c6;
 	position: fixed;
-	background-color: black;
-	/* background-color: #009688; */
+	background-color: #5979fb;
 }
 
-.titulo{
-	font-size: 36px;
-	font-family: "Lato-Black";
+.titulo {
+	font-size: 46px;
+	font-family: "Lato";
 	text-transform: uppercase;
-	color: white;
-	/* background: -webkit-linear-gradient(left, #1d3ede, #01e6f8);
-	background: -ms-linear-gradient(left, #1d3ede, #01e6f8);
-	background: -moz-linear-gradient(left, #1d3ede, #01e6f8);
-	background: -o-linear-gradient(left, #1d3ede, #01e6f8);
-	-webkit-background-clip: text;
-	-ms-background-clip: text;
-	-o-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	-ms-text-fill-color: transparent;
-	-o-text-fill-color: transparent; */
+	color: #fff;
 }
 
 .navegacao ul {
 	display: flex;
 	list-style: none;
-	
+
 }
 
 .navegacao ul li {
-	margin: 0 16px;
+	margin: 0 15px;
 }
 
 .navegacao ul a {
 	text-decoration: none;
 	font-size: 20px;
 	text-transform: uppercase;
-	color: white;
+	color: #fff;
 }
 
 .conteudo {
@@ -61,29 +56,25 @@
 	margin: 0 5%;
 }
 
-.conteudo1 {
-	display: flex;
-	background-image: url(../img/fundo1.jpg);
-	background-size: cover;
-	min-height: 100vh;
-	width: 100%;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-}
 
 .conteudo-art {
-	width: 33.3%;
+	width: 40%;
 	text-align: justify;
 	padding: 10px;
 }
 
-h1, h2 {
+h1,
+h2 {
 	padding: 5px;
-	font-size: 30px;
+	font-size: 25px;
 	text-align: center;
-	text-transform: uppercase;
+}
+
+hr {
+	width: 50%;
+	color: #5979fb;
+	margin-bottom: 3%;
+	margin-top: 2%;
 }
 
 h2 {
@@ -96,18 +87,24 @@ p {
 }
 
 .titulo-princ {
-	padding: 100px 0 20px 0;
+	padding: 11% 0 2% 0;
 }
 
+
 footer {
-    background-color: #009688;
-    margin-top: 16px;
-    text-align: center;
-    padding: 0.01em 16px;
+	background-color: #5f5f5f;
+	margin-top: 16px;
+	text-align: center;
+	padding: 0.01em 16px;
+	color: #fff;
+}
+
+.cor_branca {
+	color: #fff;
 }
 
 @media screen and (max-width: 850px) {
-	
+
 	.cabecalho {
 		flex-direction: column;
 		position: absolute;
@@ -129,7 +126,7 @@ footer {
 }
 
 @media screen and (max-width: 515px) {
-	
+
 	.cabecalho ul {
 		flex-direction: column;
 		flex-wrap: wrap;
@@ -140,11 +137,12 @@ footer {
 	.cabecalho ul li {
 		padding: 7px;
 	}
-	
+
 	.titulo-princ {
 		padding: 50px 0 10px 0;
 	}
-	.conteudo1{
+
+	.conteudo1 {
 		padding-top: 255px;
 	}
 
