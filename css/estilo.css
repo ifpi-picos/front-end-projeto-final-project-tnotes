@@ -7,12 +7,20 @@
 
 }
 
+/* .principal{
+	background-image: url("/img/imagem.png");
+ } */
+
 main {
 	color: #444444;
 }
-
-img {
+.img {
+	display: block;
+	background-image: url("../img/imagem.png");
+	background-repeat: no-repeat;
 	max-width: 100%;
+	background-size: cover;
+
 }
 
 .cabecalho {
@@ -22,14 +30,14 @@ img {
 	padding: 2% 3%;
 	width: 100%;
 	position: fixed;
-	background-color: #5979fb;
+	background-color: whitesmoke;
 }
 
 .titulo {
 	font-size: 46px;
 	font-family: "Lato";
 	text-transform: uppercase;
-	color: #fff;
+	
 }
 
 .navegacao ul {
@@ -46,21 +54,20 @@ img {
 	text-decoration: none;
 	font-size: 20px;
 	text-transform: uppercase;
-	color: #fff;
 }
 
 .conteudo {
-	width: 90%;
+	width: 85%;
 	display: flex;
 	flex-wrap: wrap;
-	margin: 0 5%;
+	margin: 0% 9%;
 }
 
 
 .conteudo-art {
 	width: 40%;
 	text-align: justify;
-	padding: 10px;
+	padding: 5px;
 }
 
 h1,
@@ -87,16 +94,20 @@ p {
 }
 
 .titulo-princ {
-	padding: 11% 0 2% 0;
+	padding: 10% 0 2% 0;
 }
 
 
 footer {
-	background-color: #5f5f5f;
-	margin-top: 16px;
+	background-color: whitesmoke;
+	margin-top: 10px;
 	text-align: center;
 	padding: 0.01em 16px;
-	color: #fff;
+	
+}
+
+.cor_preta {
+	color: black;
 }
 
 .cor_branca {
@@ -150,4 +161,7 @@ footer {
 		width: 100%;
 	}
 
+}
+.test{
+	color: #363636;
 }
