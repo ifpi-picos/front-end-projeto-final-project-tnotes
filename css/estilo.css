@@ -4,12 +4,7 @@
 	font-size: 100%;
 	box-sizing: border-box;
 	font-family: Roboto, sans-serif;
-
 }
-
-/* .principal{
-	background-image: url("/img/imagem.png");
- } */
 
 main {
 	color: #444444;
@@ -20,7 +15,6 @@ main {
 	background-repeat: no-repeat;
 	max-width: 100%;
 	background-size: cover;
-
 }
 
 .cabecalho {
@@ -37,13 +31,11 @@ main {
 	font-size: 46px;
 	font-family: "Lato";
 	text-transform: uppercase;
-	
 }
 
 .navegacao ul {
 	display: flex;
 	list-style: none;
-
 }
 
 .navegacao ul li {
@@ -103,7 +95,6 @@ footer {
 	margin-top: 10px;
 	text-align: center;
 	padding: 0.01em 16px;
-	
 }
 
 .cor_preta {
@@ -160,8 +151,4 @@ footer {
 	.conteudo-art {
 		width: 100%;
 	}
-
-}
-.test{
-	color: #363636;
 }
