@@ -8,6 +8,7 @@
 
 main {
 	color: #444444;
+
 }
 .img {
 	display: block;
@@ -92,7 +93,6 @@ p {
 
 footer {
 	background-color: whitesmoke;
-	margin-top: 10px;
 	text-align: center;
 	padding: 0.01em 16px;
 }
