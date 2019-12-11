@@ -121,18 +121,21 @@ footer ul li a i {
 	color: #fff;
 }
 
-.corpo-login {
+.corpo-login,
+.corpo-cadastro {
 	margin: 10%;
 }
 
-.conteudo-login {
+.conteudo-login,
+.conteudo-cadastro {
 	width: 500px;
 	min-height: 560px;
 	margin: 0px auto;
 	position: relative;
 }
 
-.login {
+.login,
+.cadastro {
 	position: absolute;
 	top: 0px;
 	width: 88%;
@@ -175,11 +178,17 @@ input {
 	left: 0px;
 	height: 15%;
 	width: 100%;
-	padding: 4% 21% 4% 21%;
-	font-size: 16px;
+	padding: 4% 20% 4% 20%;
+	font-size: 80%;
 	text-align: right;
 	-webkit-border-radius: 5px 5px 5px 5px;
 	border-radius: 0 0 5px 5px;
+}
+
+.link a:hover {
+	color: #39bfd7;
+	background: #f7f7f7;
+	border: 1px solid #4ab3c6;
 }
 
 .botao-entrar:hover {
