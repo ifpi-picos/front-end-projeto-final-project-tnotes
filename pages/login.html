@@ -9,25 +9,24 @@
     <meta name="keywords" content="gerenciamento, tarefas, 2020, categorias, grupos, sub-grupos">
     <script src="https://kit.fontawesome.com/d05ac65141.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="../css/estilo.css" />
-    <title>Entrar</title>
+    <title>Login</title>
 </head>
 
 <body>
-
     <main class="principal">
-        <div>
-            <div>
+        <div class="corpo-login">
+            <div class="conteudo-login">
                 <div class="login" id="login">
                     <form method="post" action="">
                         <h1>Login</h1>
                         <p>
-                            <label for="nome_login">E-Mail</label>
-                            <input id="nome_login" name="nome_login" required="required" type="text"
+                            <label for="login_email">E-Mail</label>
+                            <input class="entrada" id="login_email" name="login_email" required="required" type="text"
                                 placeholder="ex. contato@mail.com" />
                         </p>
                         <p>
-                            <label for="email_login">Senha</label>
-                            <input id="email_login" name="email_login" required="required" type="password"
+                            <label for="login_senha">Senha</label>
+                            <input class="entrada" id="login_senha" name="login_senha" required="required" type="password"
                                 placeholder="ex. sua senha" />
                         </p>
                         <p>
@@ -35,19 +34,16 @@
                             <label for="manterlogado">Manter-me logado</label>
                         </p>
                         <p>
-                            <input type="submit" value="Logar" />
+                            <input class="botao-entrar" type="submit" value="Entrar" />
                         </p>
                         <p class="link">
                             Ainda não tem conta?
-                            <a class="corPadrao" href="pages/cadastro.html" target="_blank">Cadastre-se</a>
+                            <a class="corPadrao" href="/pages/cadastro.html" target="_blank">Cadastre-se</a>
                         </p>
                     </form>
                 </div>
             </div>
         </div>
     </main>
-
-
 </body>
-
 </html>
