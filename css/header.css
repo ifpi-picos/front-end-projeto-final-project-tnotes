@@ -1,0 +1,21 @@
+.flex-dashboard header {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    background-color: white;
+    padding: 0 30px;
+    border: 1px solid rgba(0, 0, 0, .0625);
+    border-right: 0px;
+}
+
+.flex-dashboard header a {
+    text-decoration: none;
+    color: #72777a;
+}
+
+/* FontAwesome transforma o i em svg */
+.flex-dashboard header a i {
+    color: #6e8efb;
+}

@@ -1,1 +1,1 @@
-# [Coloque o nome do seu projeto aqui]
+# [Tnotes - Plataforma de gerenciamento de tarefas]
