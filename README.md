@@ -1,1 +1,1 @@
-# [Tnotes - Plataforma de gerenciamento de tarefas]
+# Tnotes - Plataforma de gerenciamento de tarefas
