@@ -34,7 +34,7 @@ body {
 
 /* Pagina inicial */
 
-.header {
+.cabecalho {
     height: 100px;
     background: linear-gradient(135deg, #6e8efb, #a777e3);
     padding: 0 20px;
@@ -42,7 +42,7 @@ body {
     position: relative;
 }
 
-div.header img {
+div.cabecalho img {
     width: 100px;
     margin-right: 15px;
     float: left;
@@ -227,9 +227,15 @@ footer ul li {
     justify-content: center;
 }
 
-.banner-login img, h2 {
+.banner-login img{
     position: relative;
     bottom: 40px;
+}
+
+.banner-login h3 {
+    position: relative;
+    bottom: 40px;
+    font-size: 30px;
 }
 
 .login-form-wrapper {
@@ -260,8 +266,16 @@ footer ul li {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
     padding: 10px 0;
+    margin-bottom: 15px;
+}
+
+.login-title h3{
+    font-size: 24px;
+}
+
+div.login-title a {
+    text-decoration: none;
 }
 
 .btn {
@@ -283,10 +297,6 @@ footer ul li {
 
 .btn:hover {
     background-position: right;
-}
-
-div.login-title a {
-    text-decoration: none;
 }
 
 .form-group {
@@ -378,9 +388,8 @@ div.login-title a {
     width: 100px;
 }
 
-.register-title h2 {
-    margin-top: 60px;
-    font-size: 18px;
+.register-title h3 {
+    font-size: 24px;
 }
 
 .register .form-group label, input {
@@ -431,10 +440,10 @@ sidebar .sidebar-title {
 
 sidebar .sidebar-title img {
     height: 80px;
-    width: 80px;s
+    width: 80px;
 }
 
-sidebar .sidebar-title h2 {
+sidebar .sidebar-title h3 {
     font-size: 18px;
     margin-top: 28px;
 }
