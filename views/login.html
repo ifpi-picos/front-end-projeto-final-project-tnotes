@@ -26,17 +26,16 @@
                     <h3>Log In</h3>
                     <a href="../views/register.html">Cadastre-se</a>
                 </div>
-                <form>
+                <form action="../views/dashboard.html">
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-                            placeholder="Digite seu email">
+                        <input type="email" class="form-control" id="email" placeholder="Digite seu email" required>
                     </div>
                     <div class="form-group">
                         <label for="senha">Senha</label>
-                        <input type="password" class="form-control" id="senha" placeholder="Senha">
+                        <input type="password" class="form-control" id="senha" placeholder="Senha" required>
                     </div>
-                    <input type="button" class="btn" onclick="parent.open('/views/dashboard.html')" value="Login">
+                    <input type="submit" class="btn" value="Login">
                 </form>
             </div>
         </div>
