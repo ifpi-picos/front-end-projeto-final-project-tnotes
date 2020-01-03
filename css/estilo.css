@@ -32,11 +32,9 @@ body {
     font-weight: 300;
 }
 
-/* Pagina inicial */
-
 .cabecalho {
     height: 100px;
-    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    background: linear-gradient(135deg, #2729b4, #7770dd);
     padding: 0 20px;
     color: #fff;
     position: relative;
@@ -101,6 +99,9 @@ div.cabecalho img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image: url(../images/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .content p {
@@ -142,7 +143,7 @@ footer {
     align-items: center;
     text-align: center;
     padding: 26px;
-    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    background: linear-gradient(135deg, #0b1aa5, #2744a3, #6a82b4, #2744a3, #0b1aa5);
     color: #fff;
 }
 
