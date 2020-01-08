@@ -52,12 +52,12 @@ div.cabecalho img {
     text-transform: uppercase;
 }
 
-.menu {
+.menu-principal {
     float: right;
     line-height: 100px;
 }
 
-.menu a {
+.menu-principal a {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
@@ -65,25 +65,25 @@ div.cabecalho img {
     transition: 0.4s;
 }
 
-.show-menu-btn,
-.hide-menu-btn {
+.show-menu-principal-btn,
+.hide-menu-principal-btn {
     transition: 0.4s;
     font-size: 30px;
     cursor: pointer;
     display: none;
 }
 
-.show-menu-btn {
+.show-menu-principal-btn {
     float: right;
 }
 
-.show-menu-btn i {
+.show-menu-principal-btn i {
     line-height: 100px;
 }
 
 .menu a:hover,
-.show-menu-btn:hover,
-.hide-menu-btn:hover {
+.show-menu-principal-btn:hover,
+.hide-menu-principal-btn:hover {
     color: #6e8efb;
 }
 
@@ -160,12 +160,12 @@ footer ul li {
 
 @media screen and (max-width:800px) {
 
-    .show-menu-btn,
-    .hide-menu-btn {
+    .show-menu-principal-btn,
+    .hide-menu-principal-btn {
         display: block;
     }
 
-    .menu {
+    .menu-principal {
         position: fixed;
         width: 100%;
         height: 100vh;
@@ -178,18 +178,18 @@ footer ul li {
         transition: 0.7s;
     }
 
-    .menu a {
+    .menu-principal a {
         display: block;
         padding: 20px;
     }
 
-    .hide-menu-btn {
+    .hide-menu-principal-btn {
         position: absolute;
         top: 40px;
         right: 40px;
     }
 
-    #chk:checked~.menu {
+    #chk:checked~.menu-principal {
         right: 0;
     }
 }
@@ -430,22 +430,17 @@ sidebar .sidebar-title {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px 30px;
     border: 1px solid rgba(0, 0, 0, .0625);
 }
 
 sidebar .sidebar-title img {
-    height: 80px;
-    width: 80px;
-}
-
-sidebar .sidebar-title h3 {
-    font-size: 18px;
-    margin-top: 28px;
+    height: 60px;
+    width: 70px;
 }
 
 .menu {
     border-right: 1px solid rgba(0, 0, 0, .0625);
+    width: 100%;
 }
 
 .menu ul {
@@ -453,8 +448,9 @@ sidebar .sidebar-title h3 {
 }
 
 .menu ul li {
-    padding: 20px 20px;
+    padding: 10px 10px;
     width: 100%;
+    height: 60px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -467,7 +463,7 @@ sidebar .sidebar-title h3 {
 
 .menu ul li a {
     color: #72777a;
-    margin-left: 20px;
+    margin-left: 15px;
     text-decoration: none;
 }
 
@@ -533,4 +529,21 @@ main {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     background-color: #6e8efb;
+}
+
+.float-button{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color: #6e8efb;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
 }
