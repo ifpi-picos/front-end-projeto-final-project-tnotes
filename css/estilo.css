@@ -450,7 +450,7 @@ sidebar .sidebar-title img {
 .menu ul li {
     padding: 10px 10px;
     width: 100%;
-    height: 60px;
+    height: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -471,6 +471,10 @@ sidebar .sidebar-title img {
     color: #4d4d4d;
 }
 
+hr{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 /* Dashboard */ /* Header */
 
 .flex-dashboard header {
