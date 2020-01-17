@@ -572,7 +572,7 @@ sidebar .sidebar-title img {
         .my-float {
             margin-top: 22px;
         }
-        /* test modal*/
+        /*modal*/
         
         .modal {
             display: none;
@@ -594,7 +594,7 @@ sidebar .sidebar-title img {
             border: 1px solid #888;
             padding: 10px 10px 0 10px;
             width: 56.27%;
-            height: 25%;
+            height: 39%;
         }
         
         .close {
@@ -622,12 +622,11 @@ sidebar .sidebar-title img {
         .btn-submit {
             background-color: #4CAF50;
             color: white;
-            padding: 14px 20px;
-            margin: 8px 0;
+            padding: 15px 20px;
+            margin: 25px 0;
             border: none;
             cursor: pointer;
             width: 100%;
-            position: bottom;
         }
         
         .caixa {
