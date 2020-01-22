@@ -30,7 +30,7 @@ cadastrar.addEventListener('click', () => {
                     mostrar.classList.remove('mostrar')
                 }, 2000)
             } else {
-
+                console.log('cheguei');
                 mostarErr.classList.add('mostrar');
                 setTimeout(() => {
                     mostarErr.classList.remove('mostrar')
