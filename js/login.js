@@ -20,12 +20,23 @@ login.addEventListener('click', () => {
 
     fetch(url, option)
         .then((response) => {
-            if (response.ok) {
-                window.location.href = "../views/dashboard.html";
-            } else {
-                console.log('err');
+            if(response.status === 400){
+                response.json().then(value =>{
+                    const errorBody = value.erro; 
+                    errorBody.forEach(element => {
+                        alert(element.msg)
+                    });
+                })
+            } else if(response.status === 200){
+                response.json().then(value =>{
+                    console.log(value)
+                    alert(value.msg)
+                    window.location.href = '../views/dashboard.html';
+                    localStorage.setItem("usuarioLogado", JSON.stringify(value.usuario));
+                });
             }
-
         })
-
+        .catch((err) => {
+            console.log(err);
+        })
 });
