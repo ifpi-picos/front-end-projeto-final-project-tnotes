@@ -632,3 +632,27 @@ sidebar .sidebar-title img {
         .caixa {
             width: 100%;
         }
+
+        .success{
+            width: 80%;
+            height: 50px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            display: none;
+        }
+        .error{
+            width: 80%;
+            height: 50px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: red;
+            color: white;
+            text-align: center;
+            display: none;
+        }
+        .mostrar{
+            display: block!important;
+        }
