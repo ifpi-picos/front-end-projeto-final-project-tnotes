@@ -51,3 +51,10 @@ for (i = 0; i < dropdown.length; i++) {
         }
     });
 }
+let but = document.getElementById("myBtn2");
+but.onclick = function(event) {
+    event.preventDefault()
+    idTarefa.textContent = document.getElementById('idModalTarefa').value;
+    idDescricao.textContent = document.getElementById('idModalDescricao').value;
+    modal.style.display = "none";
+}
