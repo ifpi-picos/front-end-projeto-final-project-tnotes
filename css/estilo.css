@@ -439,8 +439,6 @@ sidebar .sidebar-title img {
         
         .menu ul li {
             padding: 10px 10px;
-            width: 100%;
-            height: 50px;
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -467,10 +465,6 @@ sidebar .sidebar-title img {
             margin-right: 10px;
         }
         
-        .menu-ul li:active ul {
-            display: block;
-        }
-        
         .menu-ul li ul {
             display: none;
         }
@@ -478,25 +472,35 @@ sidebar .sidebar-title img {
         .menu-ul li {
             list-style: none;
         }
-        /*    teste    */
+        /*    DROPDOWN DOS GRUPOS    */
+        
+        .dropdown-btn {
+            color: #72777a;
+            font-size: 16px;
+        }
+        
+        .dropdown {
+            display: inline-flex;
+            width: 280px;
+            height: 100px;
+        }
+        
+        .dropdown a,
+        .dropdown-btn {
+            margin-left: 15px;
+            margin-top: 5px;
+            text-decoration: none;
+            border: none;
+            background: none;
+            text-align: left;
+            cursor: pointer;
+            outline: none;
+        }
         
         .dropdown-container {
             display: none;
             background-color: white;
-            padding: 10px;
-        }
-        
-        .dropdown-btn:hover {
-            color: #333;
-        }
-        
-        .dropdown-btn {
-            border: none;
-            background: none;
-            width: 100%;
-            cursor: pointer;
-            outline: none;
-            position: relative;
+            padding-left: 8px;
         }
         /* Dashboard */
         /* Header */
@@ -632,8 +636,8 @@ sidebar .sidebar-title img {
         .caixa {
             width: 100%;
         }
-
-        .success{
+        
+        .success {
             width: 80%;
             height: 50px;
             margin: 0 auto;
@@ -643,7 +647,8 @@ sidebar .sidebar-title img {
             text-align: center;
             display: none;
         }
-        .error{
+        
+        .error {
             width: 80%;
             height: 50px;
             margin: 0 auto;
@@ -653,6 +658,7 @@ sidebar .sidebar-title img {
             text-align: center;
             display: none;
         }
-        .mostrar{
+        
+        .mostrar {
             display: block!important;
         }

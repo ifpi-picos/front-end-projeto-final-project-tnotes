@@ -16,6 +16,27 @@ inputs.forEach(input => {
     input.addEventListener("focus", addcl);
     input.addEventListener("blur", remcl);
 })
+
+let modal = document.getElementById("myModal");
+let btn = document.getElementById("myBtn");
+let span = document.getElementsByClassName("close")[0];
+let sbt = document.getElementById("myBtn2")
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+sbt.onclick = function() {
+    // terminar dps
+    modal.style.display = "none";
+}
+span.onclick = function() {
+    modal.style.display = "none";
+}
+window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    // Dropdown dos Grupos
 let dropdown = document.getElementsByClassName("dropdown-btn");
 let i;
 
@@ -29,23 +50,4 @@ for (i = 0; i < dropdown.length; i++) {
             dropdownContent.style.display = "block";
         }
     });
-}
-let modal = document.getElementById("myModal");
-let btn = document.getElementById("myBtn");
-let span = document.getElementsByClassName("close")[0];
-let sbt = document.getElementById("myBtn2")
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-sbt.onclick = function() {
-    // termina dps
-    modal.style.display = "none";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
 }
