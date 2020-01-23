@@ -14,7 +14,7 @@ function remcl() {
 
 inputs.forEach(input => {
     input.addEventListener("focus", addcl);
-    input.addEventListener("blur", remcl);
+    input.addEventListener("blur", remcl);myBtn2
 })
 
 let modal = document.getElementById("myModal");
@@ -51,6 +51,7 @@ for (i = 0; i < dropdown.length; i++) {
         }
     });
 }
+
 let but = document.getElementById("myBtn2");
 but.onclick = function(event) {
     event.preventDefault()
@@ -58,3 +59,5 @@ but.onclick = function(event) {
     idDescricao.textContent = document.getElementById('idModalDescricao').value;
     modal.style.display = "none";
 }
+
+

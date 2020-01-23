@@ -56,29 +56,26 @@
                 <a href="../views/login.html"><i class="fas fa-sign-out-alt"></i> Logout</a>
             </header>
             <div class="main-content">
-                <div class="caixaDeTarefas">
-                    <p id="idTarefa"></p>
-                    <p id="idDescricao"></p>
+                <div id="mostras">
                 </div>
             </div>
         </main>
-        <button id="myBtn" class="float-button fa fa-plus my-float"></button>
-        <div id="myModal" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <form action="#" method="GET">
-                    <label for="uname"><b>Tarefa</b></label>
-                    <input id="idModalTarefa" class="caixa" type="text" name="nome-da-tarefa" value="">
-                    <label for="text"><b>Descrição</b></label>
-                    <textarea id="idModalDescricao" class="caixa" rows="4" cols="50"></textarea>
-                    <button class="btn-submit" id="myBtn2" type="submit">adicionar</button>
-                </form>
-
-            </div>
+    </div>
+    <button id="myBtn" class="float-button fa fa-plus my-float"></button>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form action="#" method="GET">
+                <label for="uname"><b>Tarefa</b></label>
+                <input id="idModalTarefa" class="caixa" type="text" name="nome-da-tarefa" value="">
+                <label for="text"><b>Descrição</b></label>
+                <textarea id="idModalDescricao" class="caixa" rows="4" cols="50"></textarea>
+                <button class="btn-submit" id="myBtn2" type="button">adicionar</button>
+            </form>
         </div>
-
     </div>
 
+    <script src="../js/tarefas.js"></script>
     <script src="/js/main.js"></script>
 
 </body>

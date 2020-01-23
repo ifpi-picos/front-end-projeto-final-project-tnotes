@@ -8,6 +8,7 @@ login.addEventListener('click', () => {
         email: '',
         password: ''
     }
+    
     user.email = document.querySelector('#email').value;
     user.password = document.querySelector('#senha').value;
 
