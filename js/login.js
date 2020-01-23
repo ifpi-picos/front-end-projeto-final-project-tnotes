@@ -1,7 +1,7 @@
 const login = document.querySelector('#login');
 
 login.addEventListener('click', () => {
-    const url = 'http://localhost:3000/api/users/login';
+    const url = 'https://back-end-project-tnotes.herokuapp.com/api/users/login';
 
     const user = {
         email: '',

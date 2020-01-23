@@ -3,7 +3,7 @@ const mostarErr = document.querySelector('.error');
 const cadastrar = document.querySelector('#enviar')
 
 cadastrar.addEventListener('click', () => {
-    const url = 'http://localhost:3000/api/users'
+    const url = 'https://back-end-project-tnotes.herokuapp.com/api/users'
     const user = {
         name: '',
         email: '',
