@@ -1,7 +1,7 @@
 const login = document.querySelector('#login');
 
 login.addEventListener('click', () => {
-    const url = 'https://git.heroku.com/back-end-project-tnotes.git/api/users/login';
+    const url = 'http://localhost:3000/api/users/login';
 
     const user = {
         email: '',
@@ -31,7 +31,7 @@ login.addEventListener('click', () => {
                 response.json().then(value =>{
                     console.log(value)
                     alert(value.msg)
-                    window.location.href = 'http://tnotes.surge.sh/views/dashboard.html';
+                    window.location.href = '../views/dashboard.html';
                     localStorage.setItem("usuarioLogado", JSON.stringify(value.usuario));
                 });
             }
