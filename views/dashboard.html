@@ -45,6 +45,7 @@
                                     <a href="#">GRUPO 1</a>
                                 </div>
                             </div>
+                            <i class="fa fa-plus add-btn"></i>
                         </div>
                     </li>
                 </ul>
@@ -66,10 +67,30 @@
         <div class="modal-content">
             <span class="close">&times;</span>
             <form action="#" method="GET">
-                <label for="uname"><b>Tarefa</b></label>
-                <input id="idModalTarefa" class="caixa" type="text" name="nome-da-tarefa" value="">
-                <label for="text"><b>Descrição</b></label>
-                <textarea id="idModalDescricao" class="caixa" rows="4" cols="50"></textarea>
+                <div class="nome-tarefa">
+                    <label for="uname" class="labal-nome-tarefa"><b>Tarefa</b></label>
+                    <input id="idModalTarefa" class="caixa-nome-tarefa" type="text" name="nome-da-tarefa" value="">
+                </div>
+                <div class="grua-importacia">
+                    <label for="importacia-da-tarefa" class="labal-importacia-tarefa"><b>Grau de Importância</b></label>
+                    <select name="grau-de-importacia" id="idGrauImportacia">
+                        <option value="Indefinido" selected="selected">Indefinido</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="descricao-tarefa">
+                    <label for="text" class="labal-descricao-tarefa"><b>Descrição</b></label>
+                    <textarea id="idModalDescricao" class="caixa-descricao-tarefa" rows="4" cols="50"></textarea>
+                </div>
                 <button class="btn-submit" id="myBtn2" type="button">adicionar</button>
             </form>
         </div>

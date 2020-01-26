@@ -12,6 +12,7 @@ body {
     height: 100%;
 }
 
+
 /* Fonts */
 
 @font-face {
@@ -159,12 +160,10 @@ footer ul li {
 }
 
 @media screen and (max-width:800px) {
-
     .show-menu-principal-btn,
     .hide-menu-principal-btn {
         display: block;
     }
-
     .menu-principal {
         position: fixed;
         width: 100%;
@@ -177,22 +176,20 @@ footer ul li {
         line-height: normal;
         transition: 0.7s;
     }
-
     .menu-principal a {
         display: block;
         padding: 20px;
     }
-
     .hide-menu-principal-btn {
         position: absolute;
         top: 40px;
         right: 40px;
     }
-
     #chk:checked~.menu-principal {
         right: 0;
     }
 }
+
 
 /* Login */
 
@@ -332,7 +329,6 @@ div.login-title a {
         width: 50%;
         padding: 0 2%;
     }
-
     .banner-login img {
         max-width: 400px;
     }
@@ -342,11 +338,11 @@ div.login-title a {
     .banner-login {
         display: none;
     }
-
     .login-form {
         width: 100%;
     }
 }
+
 
 /* Cadastro */
 
@@ -409,7 +405,10 @@ input {
     border: none;
 }
 
+
 /* Dashboard */
+
+
 /* Sidebar */
 
 div.flex-dashboard {
@@ -479,6 +478,7 @@ hr {
     list-style: none;
 }
 
+
 /*    DROPDOWN DOS GRUPOS    */
 
 .dropdown-btn {
@@ -510,7 +510,10 @@ hr {
     padding-left: 8px;
 }
 
+
 /* Dashboard */
+
+
 /* Header */
 
 .flex-dashboard header {
@@ -534,7 +537,10 @@ hr {
     color: #6e8efb;
 }
 
+
 /* Dashboard */
+
+
 /* Main */
 
 main {
@@ -586,6 +592,7 @@ main {
     margin-top: 22px;
 }
 
+
 /*modal*/
 
 .modal {
@@ -608,7 +615,7 @@ main {
     border: 1px solid #888;
     padding: 10px 10px 0 10px;
     width: 720px;
-    height: 200px;
+    height: 220px;
     border-radius: 10px;
 }
 
@@ -652,10 +659,9 @@ button:hover {
         border: 1px solid #888;
         padding: 10px 10px 0 10px;
         width: 396px;
-        height: 198px;
+        height: 222px;
         border-radius: 10px;
     }
-
     .btn-submit {
         margin-left: 148px;
         width: 25%;
@@ -669,18 +675,13 @@ button:hover {
         border: 1px solid #888;
         padding: 10px 10px 0 10px;
         width: 396px;
-        height: 198px;
+        height: 222px;
         border-radius: 10px;
     }
-
     .btn-submit {
         margin-left: 148px;
         width: 25%;
     }
-}
-
-.caixa {
-    width: 100%;
 }
 
 .success {
@@ -709,6 +710,7 @@ button:hover {
     display: block !important;
 }
 
+
 /* caixa de tarefas */
 
 .caixaDeTarefas {
@@ -716,7 +718,23 @@ button:hover {
     height: 100px;
     border: 1px solid blue; */
     padding: 10px 10px 0 10px;
-    border:1px solid #ccc;
+    border: 1px solid #ccc;
     border-radius: 10px;
     margin-bottom: 10px;
+}
+
+.add-btn {
+    float: right;
+    right: 0;
+}
+
+.nome-tarefa,
+.caixa-nome-tarefa,
+.labal-nome-tarefa,
+.caixa-descricao-tarefa {
+    width: 100%;
+}
+
+.grua-importacia {
+    padding: 5px;
 }
