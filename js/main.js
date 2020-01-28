@@ -14,7 +14,8 @@ function remcl() {
 
 inputs.forEach(input => {
     input.addEventListener("focus", addcl);
-    input.addEventListener("blur", remcl);myBtn2
+    input.addEventListener("blur", remcl);
+    myBtn2
 })
 
 let modal = document.getElementById("myModal");
@@ -37,6 +38,7 @@ window.onclick = function(event) {
         }
     }
     // Dropdown dos Grupos
+
 let dropdown = document.getElementsByClassName("dropdown-btn");
 let i;
 
@@ -51,13 +53,3 @@ for (i = 0; i < dropdown.length; i++) {
         }
     });
 }
-
-let but = document.getElementById("myBtn2");
-but.onclick = function(event) {
-    event.preventDefault()
-    idTarefa.textContent = document.getElementById('idModalTarefa').value;
-    idDescricao.textContent = document.getElementById('idModalDescricao').value;
-    modal.style.display = "none";
-}
-
-
